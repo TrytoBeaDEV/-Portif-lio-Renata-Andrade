@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #f3f3f3;
 }
 
 /* Header */
@@ -17,7 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1c1919;
+    background-color: #e209cc;
     padding: 20px;
     border-bottom: 1px solid #ddd;
 }
@@ -25,7 +25,7 @@ header {
 .perfil {
     text-align: center;
     margin-bottom: 200px;
-    background-color: #d3f5f5;
+    background-color: #d80fdf;
 }
 
 .foto-perfil {
@@ -155,7 +155,7 @@ footer p {
 }
 
 footer a {
-    color: lightblue;
+    color: rgb(222, 125, 235);
     text-decoration: none;
 }
 
