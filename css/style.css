@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 /* Corpo */
@@ -27,29 +28,28 @@ header {
 
 .perfil {
     text-align: center;
-    margin-bottom: 300px;
+    margin-bottom: 0%;
     background-color: #777;
 }
 
 .foto-perfil {
-    width: 500px; /* Definindo a largura da imagem */
-    height: 500px; /* Definindo a altura da imagem para manter um formato quadrado */
-    border-radius: 50%; /* Fazendo a imagem ficar redonda */
-    display: box; /* Garante que a imagem se comporte como um bloco para melhor centralização */
-    margin: center; /* Centraliza a imagem horizontalmente */
+    width: 500px;
+    height: 500px; 
+    border-radius: 50%; 
+    display: box; 
+    margin: center; 
 
 }
 
 .contatos {
-    display: flex;
     align-items: center;
-    margin: 50px 0;
-    display: inline;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: ruby-base-container;
     background-color: #777;
-    color: white;
-    padding: 20px 20px;
-    -moz-text-decoration-color: #333;
-    border-radius: 5px;
+    padding: 40px 100px;
 }
 
 
@@ -75,7 +75,10 @@ header {
     margin: 10px 20px;
     text-align: center;
 }
-
+.habilidade img {
+    width: 60px;
+    height: 60px;
+}
 .h{
     width: 400%;
     height: 200%;
@@ -154,20 +157,6 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-/*COD 2*/
-
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo do corpo */
-body {
-   
 }
 
 /* Estilo da apresentação */
